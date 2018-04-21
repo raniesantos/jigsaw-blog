@@ -18,7 +18,7 @@
                     Home
                 </a>
                 <a href="/blog" class="navbar-item">
-                    <fa icon="pencil-square"></fa>
+                    <fa icon="pencil"></fa>
                     Blog
                 </a>
                 <a href="/about" class="navbar-item">
