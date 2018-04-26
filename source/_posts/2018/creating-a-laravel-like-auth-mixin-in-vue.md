@@ -1,6 +1,6 @@
 ---
 title: Creating a Laravel-like Auth Mixin in Vue
-date: '2018-04-23'
+date: '2018-04-27'
 tags:
   - javascript
   - vue
@@ -113,7 +113,14 @@ Vue.mixin(auth);
 ### In Component Scripts
 
 ```js
-// code
+export default {
+    props: ['post'],
+    computed: {
+        isMyPost () {
+            return this.$_auth.check && this.post.user.id === this.$_auth.id;
+        }
+    }
+};
 ```
 
 ### In Component Templates
