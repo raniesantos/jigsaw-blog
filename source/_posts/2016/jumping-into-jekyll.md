@@ -1,10 +1,10 @@
 ---
-title: "Jumping into Jekyll"
+title: Jumping into Jekyll
 date: 2016-02-24
-tags: ["static-sites"]
+tags:
+  - static-sites
 image: blog.jpg
 ---
-
 Today I decided to learn how to use **Jekyll**, the blog-aware, static site generator.
 
 ## What For?

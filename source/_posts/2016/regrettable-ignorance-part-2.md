@@ -1,10 +1,10 @@
 ---
-title: "Regrettable Ignorance, Part 2"
+title: Regrettable Ignorance, Part 2
 date: 2016-02-28
-tags: ["git"]
+tags:
+  - git
 image: puzzle.jpg
 ---
-
 In [part 1](/blog/regrettable-ignorance-part-1), I shared a little bit about the issues surrounding our thesis project in college.
 
 Now I will start going into detail on the tools and services that we should have used and how they could have made our development process faster, easier and more efficient.

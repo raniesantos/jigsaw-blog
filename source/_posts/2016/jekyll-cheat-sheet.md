@@ -1,10 +1,10 @@
 ---
-title: "Jekyll Cheat Sheet"
+title: Jekyll Cheat Sheet
 date: 2016-04-06
-tags: ["static-sites"]
+tags:
+  - static-sites
 image: checklist.jpg
 ---
-
 Building this blog with Jekyll has been a lot of fun for me. But while I was building it, I had to research a ton of stuff to improve my workflow and make this static site as functional as possible. So now I'd like to share some information that might be useful to anyone else new to Jekyll and would like to give it a try.
 
 ## Jekyll and Browsersync

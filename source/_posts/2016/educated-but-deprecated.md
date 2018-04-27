@@ -1,9 +1,8 @@
 ---
-title: "Educated but Deprecated"
+title: Educated but Deprecated
 date: 2016-02-25
 image: class.jpg
 ---
-
 Technology changes at an extremely fast pace. One might even say that it changes every day. So shouldn't universities keep up?
 
 Back in college when I was studying I.T. I used to just take whatever material the professor gave us. But looking back now, I realize how much of it was so outdated it makes me cringe.

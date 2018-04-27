@@ -1,10 +1,11 @@
 ---
-title: "Regrettable Ignorance, Part 3"
+title: Regrettable Ignorance, Part 3
 date: 2016-03-05
-tags: ["css", "laravel"]
+tags:
+  - css
+  - laravel
 image: gears.jpg
 ---
-
 If you're building a vehicle and you need to finish it as fast as possible or within a deadline, you wouldn't need to build every single component from scratch right? As the saying goes, *"Don't reinvent the wheel."* But what if you didn't even know the wheel already existed at the time?
 
 In the [previous part](/blog/regrettable-ignorance-part-2) of this series I talked about the wrong and right way to manage source code. In this third part of the series, the focus is on **frameworks** that will allow you to write less code but accomplish more, significantly increasing the development speed. Please note that the following is specifically related to web development.

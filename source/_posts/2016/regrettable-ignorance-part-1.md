@@ -1,9 +1,8 @@
 ---
-title: "Regrettable Ignorance, Part 1"
+title: Regrettable Ignorance, Part 1
 date: 2016-02-27
 image: thesis.jpg
 ---
-
 In this post, I'm going to briefly describe the difficult situation we had during our college thesis.
 
 I was a member of a group of 4 for our Systems Analysis and Design class. In general, what we needed to do was to build three subsystems that were all part of one larger system. We had 4 months to finish this while also juggling our other classes. Out of the 4 of us, I was one of the only 2 people that did well in our other programming classes, but compared to the scale of the application we needed to build, [our knowledge was still very limited](/blog/educated-but-deprecated).

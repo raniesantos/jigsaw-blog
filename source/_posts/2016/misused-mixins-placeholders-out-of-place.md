@@ -1,10 +1,10 @@
 ---
-title: "Misused Mixins, Placeholders out of Place"
+title: Misused Mixins, Placeholders out of Place
 date: 2016-04-02
-tags: ["css"]
+tags:
+  - css
 image: confused.jpg
 ---
-
 Today I realized that I've been making a huge mistake in the way I've been using certain features of Sass.
 
 My main Sass file used to look something like this:

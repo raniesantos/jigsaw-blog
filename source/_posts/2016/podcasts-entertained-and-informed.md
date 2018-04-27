@@ -1,9 +1,8 @@
 ---
-title: "Podcasts: Entertained and Informed"
+title: Podcasts: Entertained and Informed
 date: 2016-06-27
 image: earbuds.jpg
 ---
-
 Several months ago, I was thinking of ways to keep myself occupied and entertained with media that I don't need to keep my eyes on.
 
 An obvious option would be to just listen to music. But in my case, I quickly get tired of listening to the same songs repeatedly and I also don't update my music library very often. So then I decided to try listening to **podcasts**. I reviewed a few top charts, browsed recommendations on some sites, and I easily found ones that I enjoyed.
