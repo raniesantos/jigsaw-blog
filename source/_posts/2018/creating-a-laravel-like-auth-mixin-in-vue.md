@@ -4,6 +4,7 @@ date: '2018-04-28'
 tags:
   - javascript
   - vue
+  - hyp-henated
 image: vue-auth-mixin.jpg
 comments: true
 ---
