@@ -104,6 +104,7 @@ Finally, we can now register the auth mixin. How you register it is up to you, b
 
 ```js
 // main.js
+import Vue from 'vue';
 import { auth } from './mixins';
 
 Vue.mixin(auth);
