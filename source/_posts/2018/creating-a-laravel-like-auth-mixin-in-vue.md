@@ -4,6 +4,7 @@ date: '2018-04-27'
 tags:
   - javascript
   - vue
+image: vue-auth-mixin.jpg
 comments: true
 ---
 In Laravel, we have the very useful and convenient `auth()` helper. When I tried to build my first single-page app while learning Vue.js, this helper was one of the things that I immediately felt was missing and needed to have in my Vue code.
