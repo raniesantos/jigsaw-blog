@@ -112,7 +112,9 @@ Vue.mixin(auth);
 
 ## Using the Mixin
 
-### In Component Scripts
+Now that we have the computed property `$_auth` injected into every single Vue component, all that's left is to use it.
+
+### In a Component's Logic
 
 ```js
 export default {
@@ -125,7 +127,7 @@ export default {
 };
 ```
 
-### In Component Templates
+### In a Component's Template
 
 ```html
 <template>
