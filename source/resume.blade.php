@@ -3,14 +3,13 @@
 @section('title', 'Resume')
 
 @section('content')
-    <h1 class="title has-text-centered">
-        <fa icon="spinner" class="fa-pulse fa-fw"></fa>
-        Redirecting to resume
-    </h1>
-@endsection
+    <div class="has-text-centered">
+        <h1 class="title">Resume</h1>
 
-@push('scripts')
-<script>
-window.open('{{ $page->site->owner->resume }}', '_self');
-</script>
-@endpush
+        <a href="{{ $page->site->owner->resume }}" class="button is-primary is-medium" target="_blank">
+            <fa icon="file-pdf-o"></fa>
+            <span>View resume (PDF)</span>
+        </a>
+        <p class="help">Opens in a new tab</p>
+    </div>
+@endsection

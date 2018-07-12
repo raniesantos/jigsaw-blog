@@ -29,7 +29,7 @@
                     <fa icon="code"></fa>
                     Projects
                 </a>
-                <a href="/resume" class="navbar-item" target="_blank">
+                <a href="/resume" class="navbar-item">
                     <fa icon="file-text"></fa>
                     Resume
                 </a>
