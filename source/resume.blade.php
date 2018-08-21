@@ -6,7 +6,7 @@
     <div class="has-text-centered">
         <h1 class="title">Resume</h1>
 
-        <a href="{{ $page->site->owner->resume }}" class="button is-primary is-medium" target="_blank">
+        <a href="{{ $page->owner->resume }}" class="button is-primary is-medium" target="_blank">
             <icon>file-pdf-o</icon>
             <span>View resume (PDF)</span>
         </a>

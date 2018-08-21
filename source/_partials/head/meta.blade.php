@@ -13,6 +13,6 @@
 <meta name="twitter:description" content="{!! $page->excerpt() ?: $page->site->description !!}">
 <meta name="twitter:image" content="{{ $page->imageCdn($page->image ? "posts/{$page->image}" : $page->site->image) }}">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="{{ "@{$page->site->owner->twitter}" }}">
-<meta name="twitter:creator" content="{{ "@{$page->site->owner->twitter}" }}">
+<meta name="twitter:site" content="{{ "@{$page->owner->twitter}" }}">
+<meta name="twitter:creator" content="{{ "@{$page->owner->twitter}" }}">
 <!-- end search/social -->

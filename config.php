@@ -1,23 +1,26 @@
 <?php
 
 return [
+    'production' => false,
+    'baseUrl' => 'https://raniesantos.netlify.com',
     'site' => [
         'title' => 'Ranie Santos',
-        'description' => 'Personal blog of Ranie Santos. Laravel fanboy, code linting zealot, podcast junkie, lives in Linux',
+        'description' => 'Personal blog of Ranie Santos. Laravel fanboy, code linting zealot, podcast junkie, lives in Linux.',
         'image' => 'default-share.png',
-        'disqusShortname' => 'raniesantos',
-        'jumprockAlias' => 'raniesantos',
-        'analyticsId' => 'UA-118355516-1',
-        'owner' => [
-            'name' => 'Ranie Santos',
-            'twitter' => 'raniesantos32',
-            'github' => 'raniesantos',
-            'gitlab' => 'raniesantos',
-            'resume' => 'https://drive.google.com/file/d/0BxTkFtINjLyIYUFRQUxScUt0cXc/view?usp=sharing',
-        ],
     ],
-    'baseUrl' => 'https://raniesantos.netlify.com',
-    'production' => false,
+    'owner' => [
+        'name' => 'Ranie Santos',
+        'twitter' => 'raniesantos32',
+        'github' => 'raniesantos',
+        'gitlab' => 'raniesantos',
+        'resume' => 'https://drive.google.com/file/d/0BxTkFtINjLyIYUFRQUxScUt0cXc/view?usp=sharing',
+    ],
+    'services' => [
+        'analytics' => 'UA-118355516-1',
+        'disqus' => 'raniesantos',
+        'sirv' => 'raniesantos',
+        'jumprock' => 'raniesantos',
+    ],
     'collections' => [
         'posts' => [
             'path' => 'blog/{filename}',
@@ -52,6 +55,6 @@ return [
         });
     },
     'imageCdn' => function ($page, $path) {
-        return 'https://raniesantos-cdn.sirv.com/blog/' . $path;
+        return "https://{$page->services->sirv}-cdn.sirv.com/blog/{$path}";
     },
 ];

@@ -25,7 +25,7 @@
                     @endif
                     <span class="has-text-primary">
                         <icon>calendar-o</icon> {{ date('F j, Y', $page->date) }}
-                        <icon>user-o</icon> {{ $page->site->owner->name }}
+                        <icon>user-o</icon> {{ $page->owner->name }}
                     </span>
                 </header>
 
@@ -43,7 +43,7 @@
             <div class="post-comments">
                 @if ($page->comments)
                     <vue-disqus
-                        shortname="{{ $page->site->disqusShortname }}"
+                        shortname="{{ $page->services->disqus }}"
                         url="{{ $page->getUrl() }}"
                         identifier="{{ $page->getFilename() }}"
                     ></vue-disqus>
