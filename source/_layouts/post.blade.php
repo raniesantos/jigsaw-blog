@@ -23,10 +23,15 @@
                     @if (!$page->image)
                         <h1>{{ $page->title }}</h1>
                     @endif
-                    <span class="has-text-primary">
+                    <div class="has-text-primary">
                         <icon>calendar-o</icon> {{ date('F j, Y', $page->date) }}
                         <icon>user-o</icon> {{ $page->owner->name }}
-                    </span>
+                    </div>
+                    @foreach ($page->tags as $tag)
+                        <a href="/blog/tags/{{ $tag }}">
+                            <icon>tag</icon>{{ $tag }}
+                        </a>
+                    @endforeach
                 </header>
 
                 <post-warning date="{{ $page->date }}"></post-warning>

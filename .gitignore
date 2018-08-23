@@ -1,5 +1,5 @@
-/.vscode/
 /build_local/
+/build_staging/
 /build_production/
 /node_modules/
 /source/css/
@@ -7,4 +7,8 @@
 /source/js/
 /source/mix-manifest.json
 /vendor/
+/.idea/
+/.vscode/
+/_tmp/
+npm-debug.log
 yarn-error.log

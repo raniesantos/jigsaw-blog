@@ -2,7 +2,7 @@
     <header class="card-header">
         <p class="card-header-title">{{ $title }}</p>
     </header>
-    <div class="card-content">
+    <div class="card-content" v-pre>
         {{ $slot }}
     </div>
     <footer class="card-footer">

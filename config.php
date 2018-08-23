@@ -33,16 +33,19 @@ return [
         ],
         'tags' => [
             'path' => 'blog/tags/{filename}',
+            'extends' => '_layouts.tag',
+            'section' => '',
         ],
         'projects' => [],
     ],
-    'excerpt' => function ($page, $limit = 250) {
-        return $page->isPost
-            ? str_limit(strip_tags($page->getContent()), $limit, '...')
-            : null;
-    },
-    'allTags' => function ($page, $posts) {
-        return $posts->pluck('tags')->flatten()->unique();
+    'excerpt' => function ($page, $limit = 250, $end = '...') {
+        $sanitize = function ($value) {
+            return str_replace(["\r", "\n", "\r\n"], ' ', strip_tags($value));
+        };
+        $smartlimit = function ($value) use ($limit, $end) {
+            return rtrim(strtok(wordwrap($value, $limit, "\n"), "\n")) . $end;
+        };
+        return $page->isPost ? $smartlimit($sanitize($page->getContent())) : null;
     },
     'filterByTag' => function ($page, $posts, $tag) {
         return $posts->filter(function ($post) use ($tag) {

@@ -11,7 +11,7 @@
             <div class="box">
                 <h2 class="subtitle">Tags</h2>
                 <div class="tags">
-                    @foreach ($page->allTags($posts) as $tag)
+                    @foreach ($tags->keys() as $tag)
                         <a href="/blog/tags/{{ $tag }}" class="tag is-primary">
                             {{ $tag }} ({{ $page->countPostsWithTag($posts, $tag) }})
                         </a>
