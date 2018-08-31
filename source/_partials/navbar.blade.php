@@ -1,4 +1,4 @@
-<nav class="navbar is-primary has-shadow">
+<nav class="navbar is-primary">
     <div class="container">
         <div class="navbar-brand">
             <a href="/" class="navbar-item">
@@ -14,22 +14,28 @@
         <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
             <div class="navbar-end">
                 <a href="/" class="navbar-item">
-                    <icon>home</icon> Home
+                    <icon>home</icon>
+                    <span>Home</span>
                 </a>
                 <a href="/blog" class="navbar-item">
-                    <icon>pencil</icon> Blog
+                    <icon>pencil</icon>
+                    <span>Blog</span>
                 </a>
                 <a href="/about" class="navbar-item">
-                    <icon>user</icon> About
+                    <icon>user</icon>
+                    <span>About</span>
                 </a>
                 <a href="/projects" class="navbar-item">
-                    <icon>code</icon> Projects
+                    <icon>code</icon>
+                    <span>Projects</span>
                 </a>
                 <a href="/resume" class="navbar-item">
-                    <icon>file-text</icon> Resume
+                    <icon>file-text</icon>
+                    <span>Resume</span>
                 </a>
                 <a href="/contact" class="navbar-item">
-                    <icon>envelope</icon> Contact
+                    <icon>envelope</icon>
+                    <span>Contact</span>
                 </a>
             </div>
         </div><!-- .navbar-menu -->

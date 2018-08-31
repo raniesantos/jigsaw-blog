@@ -11,6 +11,7 @@ Listed below are some details about this blog that other people building static 
 
 ## Posts
 
+- Can have multiple tags
 - A warning is shown if the post is potentially outdated (over 365 days old)
 - Code highlighting: [highlight.js](https://github.com/highlightjs/highlight.js)
 - Share buttons: [vue-social-sharing](https://github.com/nicolasbeauvais/vue-social-sharing)

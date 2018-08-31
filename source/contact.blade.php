@@ -9,7 +9,7 @@
 
             <h1 class="title has-text-centered">Contact</h1>
 
-            <contact-form jumprock-alias="{{ $page->services->jumprock }}"/>
+            <contact-form jumprock-alias="{{ $page->services->jumprock }}"></contact-form>
         </div>
     </div>
 @endsection
