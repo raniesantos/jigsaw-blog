@@ -1,0 +1,12 @@
+.pagination {
+    justify-content: center;
+
+    a {
+        min-width: 130px;
+        background: #fff;
+
+        &[disabled] {
+            opacity: 0.7;
+        }
+    }
+}

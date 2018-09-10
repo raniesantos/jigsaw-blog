@@ -35,27 +35,16 @@ return [
             'path' => 'blog/tags/{filename}',
             'extends' => '_layouts.tag',
             'section' => '',
+            'name' => function ($page) {
+                return $page->getFilename();
+            },
         ],
         'projects' => [],
     ],
     'excerpt' => function ($page, $limit = 250, $end = '...') {
-        $sanitize = function ($value) {
-            return str_replace(["\r", "\n", "\r\n"], ' ', strip_tags($value));
-        };
-        $smartlimit = function ($value) use ($limit, $end) {
-            return rtrim(strtok(wordwrap($value, $limit, "\n"), "\n")) . $end;
-        };
-        return $page->isPost ? $smartlimit($sanitize($page->getContent())) : null;
-    },
-    'filterByTag' => function ($page, $posts, $tag) {
-        return $posts->filter(function ($post) use ($tag) {
-            return collect($post->tags)->contains($tag);
-        });
-    },
-    'countPostsWithTag' => function ($page, $posts, $tag) {
-        return $posts->reduce(function ($carry, $post) use ($tag) {
-            return $carry + (int) collect($post->tags)->contains($tag);
-        });
+        return $page->isPost
+            ? str_limit_soft(content_sanitize($page->getContent()), $limit, $end)
+            : null;
     },
     'imageCdn' => function ($page, $path) {
         return "https://{$page->services->sirv}-cdn.sirv.com/blog/{$path}";

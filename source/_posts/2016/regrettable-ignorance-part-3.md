@@ -3,6 +3,7 @@ title: 'Regrettable Ignorance, Part 3'
 date: 2016-03-05
 tags:
   - css
+  - php
   - laravel
 image: gears.jpg
 comments: true

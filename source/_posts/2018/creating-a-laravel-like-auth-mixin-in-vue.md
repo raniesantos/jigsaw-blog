@@ -4,6 +4,7 @@ date: 2018-04-29
 tags:
   - javascript
   - vue
+  - laravel
 image: vue-auth-mixin.jpg
 comments: true
 ---
