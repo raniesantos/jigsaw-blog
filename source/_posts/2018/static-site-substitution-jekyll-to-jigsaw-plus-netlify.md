@@ -3,6 +3,7 @@ title: 'Static Site Substitution: Jekyll to Jigsaw + Netlify'
 date: 2018-07-20
 tags:
   - static-sites
+  - php
   - laravel
 image: jigsaw.jpg
 comments: true
