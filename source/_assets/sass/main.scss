@@ -4,16 +4,17 @@
 @import "columns";
 
 // Layout
-@import "hero";
-@import "footer";
+@import "layout/hero";
+@import "layout/footer";
 
 // Elements
-@import "content";
+@import "elements/content";
+@import "elements/icon";
 
 // Components
-@import "card";
-@import "navbar";
-@import "pagination";
+@import "components/card";
+@import "components/navbar";
+@import "components/pagination";
 
 // Custom
 @import "app";
