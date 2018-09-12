@@ -7,13 +7,13 @@
             </div>
             <div class="column is-3 has-text-right-tablet">
                 <a href="https://twitter.com/{{ $page->owner->twitter }}" target="_blank">
-                    <icon stack="square" icon-class="has-text-primary" stack-class="has-text-white">twitter</icon>
+                    <icon stack="fa-square" icon-class="has-text-primary" stack-class="has-text-white">fa-twitter</icon>
                 </a>
                 <a href="https://github.com/{{ $page->owner->github }}" target="_blank">
-                    <icon stack="square" icon-class="has-text-primary" stack-class="has-text-white">github</icon>
+                    <icon stack="fa-square" icon-class="has-text-primary" stack-class="has-text-white">fa-github</icon>
                 </a>
                 <a href="https://gitlab.com/{{ $page->owner->gitlab }}" target="_blank">
-                    <icon stack="square" icon-class="has-text-primary" stack-class="has-text-white">gitlab</icon>
+                    <icon stack="fa-square" icon-class="has-text-primary" stack-class="has-text-white">fa-gitlab</icon>
                 </a>
             </div>
         </div>

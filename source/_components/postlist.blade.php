@@ -7,7 +7,7 @@
                     <h5 class="is-size-5">{{ $post->title }}</h5>
                 </a>
                 <span class="has-text-primary">
-                    <icon>calendar-o</icon>
+                    <icon>fa-calendar-o</icon>
                     {{ date('M j, Y', $post->date) }}
                 </span>
             </div>

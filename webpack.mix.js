@@ -1,5 +1,6 @@
 let mix = require('laravel-mix');
 let build = require('./tasks/build.js');
+require('laravel-mix-purgecss');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source');
@@ -31,5 +32,10 @@ mix
         'highlight.js/lib/languages/shell'
     ])
     .sass('source/_assets/sass/main.scss', 'css')
-    .sass('source/_assets/sass/vendor.scss', 'css')
+    .purgeCss({
+        enabled: true,
+        whitelistPatterns: [/hljs/],
+        whitelistPatternsChildren: [/^content$/],
+        folders: ['source']
+    })
     .version();

@@ -1,5 +1,5 @@
 <template>
-    <div v-if="message" :class="`notification is-${type}`">
+    <div v-if="message" :class="`notification ${type}`">
         <button class="delete" @click="message = ''"/>
         <icon v-if="icon">{{ icon }}</icon>
         {{ message }}
@@ -16,7 +16,7 @@ export default {
         };
     },
     created () {
-        window.eventBus.$on('notify', (message, type = 'info', icon = '') => {
+        window.eventBus.$on('notify', (message, type = 'is-info', icon = '') => {
             this.message = message;
             this.type = type;
             this.icon = icon;
