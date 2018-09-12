@@ -3,7 +3,7 @@
 @section('hero')
     @hero([
         'title' => 'Anecdotes of an Artisan',
-        'size' => 'medium',
+        'size' => 'is-medium',
         'centered' => true,
         'image' => $page->imageCdn('code.jpg'),
     ])
@@ -26,7 +26,7 @@
                         </span>
                         <span class="card-footer-item">
                             <a href="{{ $post->getPath() }}" class="button is-primary">
-                                <icon>angle-double-right</icon>
+                                <icon>fa-angle-double-right</icon>
                                 <span>Read more</span>
                             </a>
                         </span>

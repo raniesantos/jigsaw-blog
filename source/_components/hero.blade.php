@@ -1,7 +1,7 @@
 <section
     class="hero
-        {{ isset($size) ? " is-{$size}" : '' }}
-        {{ isset($type) ? " is-{$type}" : '' }}
+        {{ isset($size) ? " {$size}" : '' }}
+        {{ isset($type) ? " {$type}" : '' }}
         {{ isset($image) ? ' hero-image' : '' }}
         {{ isset($image) && $title ? ' overlay-dark' : '' }}
     "

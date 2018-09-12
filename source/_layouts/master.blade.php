@@ -14,7 +14,6 @@
     @include('_partials.head.meta')
     @include('_partials.cms.identity_widget')
 
-    <link rel="stylesheet" href="{{ mix('css/vendor.css', '') }}">
     <link rel="stylesheet" href="{{ mix('css/main.css', '') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300">
 </head>

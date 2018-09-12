@@ -6,7 +6,7 @@
     @if ($page->image)
         @hero([
             'title' => $page->title,
-            'size' => 'medium',
+            'size' => 'is-medium',
             'centered' => true,
             'image' => $page->imageCdn("posts/{$page->image}"),
         ])
@@ -24,12 +24,12 @@
                         <h1>{{ $page->title }}</h1>
                     @endif
                     <div class="has-text-primary">
-                        <icon>calendar-o</icon> {{ date('F j, Y', $page->date) }}
-                        <icon>user-o</icon> {{ $page->owner->name }}
+                        <icon>fa-calendar-o</icon> {{ date('F j, Y', $page->date) }}
+                        <icon>fa-user-o</icon> {{ $page->owner->name }}
                     </div>
                     @foreach ($page->tags as $tag)
                         <a href="/blog/tags/{{ $tag }}">
-                            <icon>tag</icon>{{ $tag }}
+                            <icon>fa-tag</icon>{{ $tag }}
                         </a>
                     @endforeach
                 </header>
@@ -55,7 +55,7 @@
                 @else
                     <article class="message has-text-centered">
                         <div class="message-body">
-                            <icon>ban</icon> Comments are not enabled for this post.
+                            <icon>fa-ban</icon> Comments are not enabled for this post.
                         </div>
                     </article>
                 @endif
