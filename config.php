@@ -42,6 +42,7 @@ return [
         'projects' => [],
     ],
     'excerpt' => function ($page, $limit = 250, $end = '...') {
+        // return method_exists($page, 'getContent') && !empty($page->getContent())
         return $page->isPost
             ? str_limit_soft(content_sanitize($page->getContent()), $limit, $end)
             : null;
