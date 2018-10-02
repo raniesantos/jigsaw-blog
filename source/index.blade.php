@@ -22,7 +22,7 @@
 
                     @slot('footer')
                         <span class="card-footer-item">
-                            {{ date('M j, Y', $post->date) }}
+                            {{ $post->prettyDate() }}
                         </span>
                         <span class="card-footer-item">
                             <a href="{{ $post->getPath() }}" class="button is-primary">

@@ -24,7 +24,7 @@
                         <h1>{{ $page->title }}</h1>
                     @endif
                     <div class="has-text-primary">
-                        <icon>fa-calendar-o</icon> {{ date('F j, Y', $page->date) }}
+                        <icon>fa-calendar-o</icon> {{ $page->prettyDate('F j, Y') }}
                         <icon>fa-user-o</icon> {{ $page->owner->name }}
                     </div>
                     @foreach ($page->tags as $tag)

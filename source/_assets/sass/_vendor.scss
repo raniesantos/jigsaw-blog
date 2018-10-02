@@ -1,10 +1,10 @@
 // Bulma + Bulmaswatch
 @import "combined-variables";
-@import "node_modules/bulma/bulma";
-@import "node_modules/bulmaswatch/journal/overrides";
+@import "~bulma/bulma";
+@import "~bulmaswatch/journal/overrides";
 
 // Font Awesome
-@import "node_modules/font-awesome/scss/font-awesome";
+@import "~font-awesome/scss/font-awesome";
 
 // Highlight.js
-@import "node_modules/highlight.js/styles/atom-one-dark";
+@import "~highlight.js/styles/atom-one-dark";

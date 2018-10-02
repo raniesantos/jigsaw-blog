@@ -8,7 +8,7 @@
                 </a>
                 <span class="has-text-primary">
                     <icon>fa-calendar-o</icon>
-                    {{ date('M j, Y', $post->date) }}
+                    {{ $post->prettyDate() }}
                 </span>
             </div>
 

@@ -1,8 +1,14 @@
+# My Personal Blog
+
+This repo contains the source code of my Jigsaw powered static blog at [https://raniesantos.netlify.com](https://raniesantos.netlify.com).
+
 Listed below are some details about this blog that other people building static sites may find useful.
+
+If you'd like to use a similar setup for your own blog, you can just use [this template](https://github.com/raniesantos/artisan-static) that I made instead of forking this repo.
 
 ## General details
 
-- Static site generator: [Jigsaw](http://jigsaw.tighten.co)
+- Static site generator: [Jigsaw](http://jigsaw.tighten.co) (Laravel Blade templates)
 - Hosting: [Netlify](https://www.netlify.com)
 - CMS: [Netlify CMS](https://www.netlifycms.org)
 - Favicons generated via [RealFaviconGenerator](https://realfavicongenerator.net)
@@ -21,4 +27,4 @@ Listed below are some details about this blog that other people building static 
 ## Contact form
 
 - Validation: [vee-validate](https://github.com/baianat/vee-validate) (uses Laravel-like validation)
-- Form endpoint: [Jumprock](https://jumprock.co) (built with Laravel)
+- Form endpoint: [Jumprock](https://jumprock.co) (3rd-party service built with Laravel)

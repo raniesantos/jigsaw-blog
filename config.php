@@ -30,6 +30,9 @@ return [
             'isPost' => true,
             'comments' => true,
             'tags' => [],
+            'prettyDate' => function ($page, $format = 'M j, Y') {
+                return date($format, $page->date);
+            },
         ],
         'tags' => [
             'path' => 'blog/tags/{filename}',
@@ -41,6 +44,9 @@ return [
         ],
         'projects' => [],
     ],
+    'isActive' => function ($page, $segment) {
+        return starts_with($page->getPath(), $segment) ? ' is-active' : '';
+    },
     'excerpt' => function ($page, $limit = 250, $end = '...') {
         return $page->isPost
             ? str_limit_soft(content_sanitize($page->getContent()), $limit, $end)

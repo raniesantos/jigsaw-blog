@@ -15,7 +15,7 @@
         <network network="googleplus">
             <button class="button">
                 <icon>fa-google-plus</icon>
-                <span>Google +</span>
+                <span>Google+</span>
             </button>
         </network>
         <network network="linkedin">

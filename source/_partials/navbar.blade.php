@@ -13,27 +13,23 @@
         </div><!-- .navbar-brand -->
         <div class="navbar-menu" :class="{ 'is-active': navbarActive }">
             <div class="navbar-end">
-                <a href="/" class="navbar-item">
-                    <icon>fa-home</icon>
-                    <span>Home</span>
-                </a>
-                <a href="/blog" class="navbar-item">
+                <a href="/blog" class="navbar-item{{ $page->isActive('/blog') }}">
                     <icon>fa-pencil</icon>
                     <span>Blog</span>
                 </a>
-                <a href="/about" class="navbar-item">
+                <a href="/about" class="navbar-item{{ $page->isActive('/about') }}">
                     <icon>fa-user</icon>
                     <span>About</span>
                 </a>
-                <a href="/projects" class="navbar-item">
+                <a href="/projects" class="navbar-item{{ $page->isActive('/projects') }}">
                     <icon>fa-code</icon>
                     <span>Projects</span>
                 </a>
-                <a href="/resume" class="navbar-item">
+                <a href="/resume" class="navbar-item{{ $page->isActive('/resume') }}">
                     <icon>fa-file-text</icon>
                     <span>Resume</span>
                 </a>
-                <a href="/contact" class="navbar-item">
+                <a href="/contact" class="navbar-item{{ $page->isActive('/contact') }}">
                     <icon>fa-envelope</icon>
                     <span>Contact</span>
                 </a>

@@ -3,9 +3,9 @@ var fs = require('fs');
 var path = require('path');
 
 module.exports = {
-    path: function () {
+    path: function() {
         if (fs.existsSync('./vendor/bin/jigsaw')) {
-            return path.normalize('./vendor/bin/jigsaw');
+            return path.normalize('./vendor/bin/jigsaw')
         }
 
         if (hasbin.sync('jigsaw')) {
