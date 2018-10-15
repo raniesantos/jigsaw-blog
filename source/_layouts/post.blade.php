@@ -24,12 +24,12 @@
                         <h1>{{ $page->title }}</h1>
                     @endif
                     <div class="has-text-primary">
-                        <icon>fa-calendar-o</icon> {{ $page->prettyDate('F j, Y') }}
-                        <icon>fa-user-o</icon> {{ $page->owner->name }}
+                        <icon>mdi-calendar-blank</icon> {{ $page->prettyDate('F j, Y') }}
+                        <icon>mdi-account-outline</icon> {{ $page->owner->name }}
                     </div>
                     @foreach ($page->tags as $tag)
                         <a href="/blog/tags/{{ $tag }}">
-                            <icon>fa-tag</icon>{{ $tag }}
+                            <icon>mdi-tag</icon>{{ $tag }}
                         </a>
                     @endforeach
                 </header>
@@ -55,7 +55,7 @@
                 @else
                     <article class="message has-text-centered">
                         <div class="message-body">
-                            <icon>fa-ban</icon> Comments are not enabled for this post.
+                            <icon>mdi-cancel</icon> Comments are not enabled for this post.
                         </div>
                     </article>
                 @endif

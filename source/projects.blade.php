@@ -14,10 +14,10 @@
 
                     @slot('footer')
                         <a class="card-footer-item" target="_blank" {!! $project->source ? 'href="' . $project->source . '"' : 'disabled' !!}>
-                            <icon>fa-code</icon> Source code
+                            <icon>mdi-xml</icon> Source code
                         </a>
                         <a class="card-footer-item" target="_blank" {!! $project->demo ? 'href="' . $project->demo . '"' : 'disabled' !!}>
-                            <icon>fa-list-alt</icon> Live demo
+                            <icon>mdi-web</icon> Live demo
                         </a>
                     @endslot
                 @endcard

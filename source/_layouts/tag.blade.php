@@ -10,7 +10,7 @@
 
             <div class="field">
                 <a href="/blog" class="button">
-                    <icon>fa-angle-double-left</icon>
+                    <icon>mdi-chevron-double-left</icon>
                     <span>Blog index</span>
                 </a>
             </div>

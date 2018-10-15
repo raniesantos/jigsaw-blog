@@ -15,7 +15,7 @@
                     but mostly about technology and the web.
                 </p>
 
-                <h3>I <icon>fa-heart</icon> the web</h3>
+                <h3>I <icon>mdi-heart</icon> the web</h3>
                 <p>
                     I enjoy learning various new concepts in web development.
                     I make stuff with CSS, JavaScript and modern PHP.
@@ -24,7 +24,7 @@
                     I think code linting should be an essential part of anyone's coding workflow.
                 </p>
 
-                <h3>I <icon>fa-heart</icon> Linux</h3>
+                <h3>I <icon>mdi-heart</icon> Linux</h3>
                 <p>
                     I'm a Linux enthusiast.
                     Ever since I switched to Linux, it has always made me feel at home
@@ -32,7 +32,7 @@
                     It's the perfect operating system for someone like me who is a tinkerer and a huge nerd.
                 </p>
 
-                <h3>I <icon>fa-heart</icon> podcasts</h3>
+                <h3>I <icon>mdi-heart</icon> podcasts</h3>
                 <p>
                     I really like listening to podcasts.
                     Besides being a time killer and source of entertainment,

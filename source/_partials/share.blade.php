@@ -2,25 +2,25 @@
     <div>
         <network network="facebook">
             <button class="button">
-                <icon>fa-facebook</icon>
+                <icon>mdi-facebook</icon>
                 <span>Facebook</span>
             </button>
         </network>
         <network network="twitter">
             <button class="button">
-                <icon>fa-twitter</icon>
+                <icon>mdi-twitter</icon>
                 <span>Twitter</span>
             </button>
         </network>
         <network network="reddit">
             <button class="button">
-                <icon>fa-reddit-alien</icon>
+                <icon>mdi-reddit</icon>
                 <span>Reddit</span>
             </button>
         </network>
         <network network="linkedin">
             <button class="button">
-                <icon>fa-linkedin</icon>
+                <icon>mdi-linkedin</icon>
                 <span>LinkedIn</span>
             </button>
         </network>

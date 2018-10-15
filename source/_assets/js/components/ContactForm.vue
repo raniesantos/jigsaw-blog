@@ -36,7 +36,7 @@
 
         <div class="field has-text-centered">
             <button class="button is-primary" :disabled="errors.any()" :class="{ 'is-loading': sending }">
-                <icon>fa-envelope</icon>
+                <icon>mdi-email</icon>
                 <span>Send me a message</span>
             </button>
         </div>
@@ -95,10 +95,10 @@ export default {
             this.form.subject = '';
             this.form.message = '';
             this.$validator.reset();
-            window.eventBus.$emit('notify', 'Your message has been sent.', 'is-success', 'fa-check-circle');
+            window.eventBus.$emit('notify', 'Your message has been sent.', 'is-success', 'mdi-check-circle');
         },
         onError () {
-            window.eventBus.$emit('notify', 'Sending failed, please try again.', 'is-danger', 'fa-times-circle');
+            window.eventBus.$emit('notify', 'Sending failed, please try again.', 'is-danger', 'mdi-close-circle');
         }
     }
 };

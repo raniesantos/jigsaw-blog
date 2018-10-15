@@ -26,7 +26,7 @@
                         </span>
                         <span class="card-footer-item">
                             <a href="{{ $post->getPath() }}" class="button is-primary">
-                                <icon>fa-angle-double-right</icon>
+                                <icon>mdi-chevron-double-right</icon>
                                 <span>Read more</span>
                             </a>
                         </span>
