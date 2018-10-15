@@ -18,7 +18,7 @@ return [
     'services' => [
         'analytics' => 'UA-118355516-1',
         'disqus' => 'raniesantos',
-        'sirv' => 'raniesantos',
+        'cloudinary' => 'raniesantos',
         'jumprock' => 'raniesantos',
     ],
     'collections' => [
@@ -53,6 +53,6 @@ return [
             : null;
     },
     'imageCdn' => function ($page, $path) {
-        return "https://{$page->services->sirv}-cdn.sirv.com/blog/{$path}";
+        return "https://res.cloudinary.com/{$page->services->cloudinary}/my-blog/{$path}";
     },
 ];

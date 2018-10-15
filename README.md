@@ -12,7 +12,7 @@ If you'd like to use a similar setup for your own blog, you can just use [this t
 - Hosting: [Netlify](https://www.netlify.com)
 - CMS: [Netlify CMS](https://www.netlifycms.org)
 - Favicons generated via [RealFaviconGenerator](https://realfavicongenerator.net)
-- Image hosting: [Sirv](https://sirv.com)
+- Image hosting: [Cloudinary](https://cloudinary.com)
 - Has Google Analytics
 
 ## Posts

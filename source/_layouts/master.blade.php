@@ -14,7 +14,7 @@
     @include('_partials.head.meta')
 
     <link rel="stylesheet" href="{{ mix('css/main.css', '') }}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News+Cycle:400,700|Raleway:200,300">
 </head>
 <body>
     <div id="app">
