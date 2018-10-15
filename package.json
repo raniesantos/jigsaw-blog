@@ -9,13 +9,13 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
+        "@mdi/font": "^2.8.94",
         "axios": "^0.18.0",
         "browser-sync": "^2.26.3",
         "browser-sync-webpack-plugin": "^2.0.1",
         "bulma": "^0.7.2",
         "bulmaswatch": "^0.7.2",
         "cross-env": "^3.2.3",
-        "font-awesome": "4.7.0",
         "hasbin": "^1.2.3",
         "highlight.js": "^9.13.0",
         "laravel-mix": "^2.0.0",
