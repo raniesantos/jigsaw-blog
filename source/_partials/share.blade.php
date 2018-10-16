@@ -1,4 +1,4 @@
-<social-sharing url="{{ $page->getUrl() }}" inline-template>
+<social-sharing url="{{ $page->getUrl() }}" title="{{ $page->title }}" inline-template>
     <div>
         <network network="facebook">
             <button class="button">
@@ -12,10 +12,10 @@
                 <span>Twitter</span>
             </button>
         </network>
-        <network network="googleplus">
+        <network network="reddit">
             <button class="button">
-                <icon>fa-google-plus</icon>
-                <span>Google+</span>
+                <icon>fa-reddit-alien</icon>
+                <span>Reddit</span>
             </button>
         </network>
         <network network="linkedin">

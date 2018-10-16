@@ -4,6 +4,14 @@
     margin-bottom: 3rem;
 }
 
+.post-body h2::before {
+    content: '$';
+    margin-right: 7px;
+    font-weight: 400;
+    color: $salmon;
+    opacity: 0.6;
+}
+
 .post-share {
     text-align: center;
 
@@ -22,8 +30,8 @@
     background-color: $twitter;
 }
 
-[data-link="#share-googleplus"] .button {
-    background-color: $googleplus;
+[data-link="#share-reddit"] .button {
+    background-color: $reddit;
 }
 
 [data-link="#share-linkedin"] .button {
