@@ -1,13 +1,17 @@
+$logo-background-color: #eee;
+$logo-fake-padding: 2px;
+$logo-margin: 5px;
+
 .navbar-brand .navbar-item {
-    font-family: 'Raleway', sans-serif;
+    font-family: $brand-family;
     font-weight: 300;
     font-size: 24px;
     text-transform: lowercase;
 
     img {
-        background: #fee;
+        background-color: $logo-background-color;
         border-radius: 5px;
-        box-shadow: 0 0 0 2px #fee;
-        margin-right: 7px;
+        box-shadow: 0 0 0 $logo-fake-padding $logo-background-color;
+        margin-right: $logo-fake-padding + $logo-margin;
     }
 }

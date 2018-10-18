@@ -1,0 +1,22 @@
+@import "~bulmaswatch/journal/variables";
+
+// My variables
+$salmon: #f4645f;
+$brand-family: "Raleway", sans-serif;
+
+$social: (
+    facebook: #3b5998,
+    twitter: #00aced,
+    reddit: #ff4500,
+    linkedin: #0077b5
+);
+
+// Overrides
+$primary: $salmon;
+$danger: $red;
+$body-background-color: #eee;
+$body-line-height: 1.7;
+$code-background: transparent;
+$pre-background: transparent;
+
+$bulmaswatch-import-font: false;

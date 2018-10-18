@@ -5,7 +5,7 @@
 }
 
 .post-body h2::before {
-    content: '$';
+    content: "$";
     margin-right: 7px;
     font-weight: 400;
     color: $salmon;
@@ -22,20 +22,10 @@
     }
 }
 
-[data-link="#share-facebook"] .button {
-    background-color: $facebook;
-}
-
-[data-link="#share-twitter"] .button {
-    background-color: $twitter;
-}
-
-[data-link="#share-reddit"] .button {
-    background-color: $reddit;
-}
-
-[data-link="#share-linkedin"] .button {
-    background-color: $linkedin;
+@each $key, $value in $social {
+    span[data-link="#share-#{$key}"] .button {
+        background-color: $value;
+    }
 }
 
 .post-comments {

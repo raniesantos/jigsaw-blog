@@ -22,7 +22,7 @@
 
         @yield('hero')
 
-        <section class="section" id="main">
+        <section class="section" id="main-section">
             <div class="container">
                 @yield('content')
             </div>

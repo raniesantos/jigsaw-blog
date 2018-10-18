@@ -1,11 +1,8 @@
-@import "vendor";
+// Utilities
+@import "utilities/vendor";
 
-@import "base";
-@import "columns";
-
-// Layout
-@import "layout/hero";
-@import "layout/footer";
+// Base
+@import "base/generic";
 
 // Elements
 @import "elements/content";
@@ -15,6 +12,13 @@
 @import "components/card";
 @import "components/navbar";
 @import "components/pagination";
+
+// Grid
+@import "grid/columns";
+
+// Layout
+@import "layout/hero";
+@import "layout/footer";
 
 // Custom
 @import "app";

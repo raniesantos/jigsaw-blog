@@ -1,0 +1,15 @@
+a {
+    &[disabled] {
+        pointer-events: none;
+        opacity: 0.4;
+    }
+}
+
+pre {
+    padding: 0;
+    box-shadow: 0 0 3px #999;
+
+    .hljs {
+        padding: 1.25rem 1.5rem;
+    }
+}
