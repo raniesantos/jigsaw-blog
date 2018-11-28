@@ -34,7 +34,7 @@ mix
     .sass('source/_assets/sass/main.scss', 'css')
     .purgeCss({
         enabled: true,
-        whitelistPatterns: [/hljs/],
+        whitelistPatterns: [/pre/, /hljs/],
         whitelistPatternsChildren: [/^content$/],
         folders: ['source']
     })

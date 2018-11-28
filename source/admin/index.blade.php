@@ -7,6 +7,6 @@
     <title>Admin | {{ $page->site->title }}</title>
 </head>
 <body>
-    <script src="https://unpkg.com/netlify-cms@2.0.9/dist/netlify-cms.js"></script>
+    <script src="https://unpkg.com/netlify-cms@2.2.0/dist/netlify-cms.js"></script>
 </body>
 </html>

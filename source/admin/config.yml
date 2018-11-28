@@ -4,6 +4,8 @@ backend:
   branch: master
   squash_merges: true
 publish_mode: editorial_workflow
+display_url: https://raniesantos.netlify.com
+logo_url: https://res.cloudinary.com/raniesantos/my-blog/logo-banner.png
 media_folder: images # required but unused, images are hosted elsewhere
 collections:
   - name: "posts"
