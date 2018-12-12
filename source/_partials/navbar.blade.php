@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a href="/" class="navbar-item">
-                <img src="{{ $page->imageCdn('logo-160x160.png') }}">
+                <img src="{{ $page->imageCdn('logo-160x160.png') }}" alt="logo">
                 {{ $page->site->title }}
             </a>
             <div class="navbar-burger" :class="{ 'is-active': navbarActive }" @click="navbarActive = !navbarActive">
